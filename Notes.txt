@@ -1,1 +1,17 @@
 CountVectorizer user links: https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html
+
+
+====
+1. open in python 2.x
+import jieba.analyse as analyse
+Local_File =  open(u'./data/news.txt',mode = 'r').read()
+print(u"关键字是：" + "/" .join(jieba.analyse.extract_tags(Local_File,topK = 4, withWeight = False,allowPOS = ())))
+
+2.open in python 3.x
+import jieba
+Local_File =  open('./data/西游记.txt',mode = 'r',encoding = 'utf-8').read()
+"/".join(jieba.analyse.extract_tags(Local_File,topK = 7, withWeight = False,allowPOS = ()))
+
+
+3.ImportError: Install xlrd >= 0.9.0 for Excel support
+pip install xlrd and import xlrd in code can fix this issue when using read_excel()
