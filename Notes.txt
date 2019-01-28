@@ -1,1 +1,5 @@
 CountVectorizer user links: https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html
+
+========
+下载 Microsoft Visual C++ Compiler for Python 2.7, 安装即可
+下载链接：http://www.microsoft.com/en-us/download/confirmation.aspx?id=44266
